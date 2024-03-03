@@ -30,13 +30,13 @@ const MainComponent = ({
               <div className={classes.searchIcon}>{searchIcon}</div>
             </div>
             <div className={classes.requirementsContainer}>
-              <div className={classes.requirements}>
+              <ul className={classes.requirements}>
                 {requirements.map((el, i) => (
-                  <p className={classes.requirement} key={i}>
+                  <li className={classes.requirement} key={i}>
                     {el}
-                  </p>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
             <div className={classes.applyNow}>
               <p className={classes.label}>{applyNow.label}</p>
