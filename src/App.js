@@ -24,7 +24,7 @@ function App() {
     ],
     applyNow: {
       label: "Send your cv via email",
-      link: "hello@rellygreatsite.com",
+      email: "hello@rellygreatsite.com",
     },
   });
 

@@ -40,13 +40,9 @@ const MainComponent = ({
             </div>
             <div className={classes.applyNow}>
               <p className={classes.label}>{applyNow.label}</p>
-              <a
-                href={applyNow.link}
-                target="_blank"
-                rel="noreferrer"
-                className={classes.link}
-              >
-                {applyNow.link}
+
+              <a href={`mailto:${applyNow.email}`} className={classes.email}>
+                {applyNow.email}
               </a>
             </div>
           </div>
