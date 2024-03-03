@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./MainComponent.module.css";
-import SearchIcon from "../../images/SearchIcon";
+
 const MainComponent = ({
   img,
   searchIcon,
