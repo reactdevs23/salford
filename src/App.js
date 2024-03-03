@@ -6,7 +6,7 @@ import SearchIcon from "./images/SearchIcon";
 
 function App() {
   const [allData, setAllData] = useState({
-    fontFamily: "'Public Sans', sans-serif",
+    fontFamily: "'Montserrat', sans-serif",
     logo: logo,
 
     img: img,
